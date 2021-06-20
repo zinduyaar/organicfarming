@@ -3895,7 +3895,7 @@ img{
 	width:100%;
 	height:100%;
 	position:absolute;
-	background:rgba(27,26,27,0.70);
+	background:rgba(27,26,27,0.30);
 }
 
 .page-title .auto-container{
@@ -6023,4 +6023,8 @@ img{
 .your-order .coupon-code .form-group button{
 	display:block;
 	width:100%;	
+}
+
+.img-logo{
+	height: 80px;
 }
