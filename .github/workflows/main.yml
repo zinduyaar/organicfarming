@@ -14,4 +14,4 @@ jobs:
         aws-region: ap-south-1 # Change this to the location of your S3 Bucket
 
     - name: Deploy to S3 bucket
-      run: aws s3 sync ${{ secrets.S3_BUCKET }} --delete
+      run: aws s3 sync ./ ${{ secrets.S3_BUCKET }} --delete
