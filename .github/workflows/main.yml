@@ -13,7 +13,5 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-south-1 # Change this to the location of your S3 Bucket
 
-    # Change ./_site/ to the location of your website in your repository,
-    # with Jekyll _site/ is the default location of the built files
     - name: Deploy to S3 bucket
-      run: aws s3 sync ./_site/ ${{ secrets.S3_BUCKET }} --delete
+      run: aws s3 sync ${{ secrets.S3_BUCKET }} --delete
