@@ -73,9 +73,9 @@
 	}
 
 	hiddenBarMenuConfig();
-
 	//Hidden Sidebar
 	if ($('.hidden-bar').length) {
+		
 		var hiddenBar = $('.hidden-bar');
 		var hiddenBarOpener = $('.hidden-bar-opener');
 		var hiddenBarCloser = $('.hidden-bar-closer');
